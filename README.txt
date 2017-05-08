@@ -29,7 +29,7 @@ from the project data folder:
 For VMWare use:  $ scp  *.csv user01@ipaddress:/user/user01/.
 For Virtualbox use:  $ scp -P 2222 *.csv  user01@127.0.0.1:/user/user01/data/. 
 
-This example runs on MapR 5.2 with Spark 2.0.1 . If running on the sandbox you need to upgrade to MEP 2.0,  Spark  2.0.1 
+This example runs on MapR 5.2 with Spark 2.0.1 . If running on the sandbox you may need to upgrade to   Spark  2.0.1 
 http://maprdocs.mapr.com/home/UpgradeGuide/UpgradingEcoPacks.html
 http://maprdocs.mapr.com/home/Spark/Spark_IntegrateMapRStreams.html
 
@@ -44,7 +44,7 @@ Or you can run the applications with these steps:
 
 Step 1: First compile the project: Select project  -> Run As -> Maven Install
 
-Step 2: Copy the spark-ml-churn-1.0.jar and data to the sandbox 
+Step 2: Copy the jar and data to the sandbox 
 
 To run the  standalone :
 
